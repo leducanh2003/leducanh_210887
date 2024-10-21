@@ -1,5 +1,6 @@
 #!/bin/bash
 
+HEAD
 #Tao 5 file tu user2_1.txt den user2_5.txt
 for i in {1..5}
 do
@@ -9,3 +10,9 @@ do
 		echo "user 2 init" > user_$i.txt
 	fi
 done
+
+touch info.txt
+
+echo "leducanh: $USER" > info.txt
+echo "Ngay gio hien tai: $(date)" >> info.txt
+user2
